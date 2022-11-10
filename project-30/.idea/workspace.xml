@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="973e794a-eac7-4aec-bca7-0f494515f42e" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/../30D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../30D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30-Days-Of-React/08_Day_States/08_states_boilerplate/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/30-Days-Of-React/08_Day_States/08_states_boilerplate/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/day-01/level1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
@@ -46,7 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/30-Days-Of-React" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -112,7 +109,7 @@
       <workItem from="1667786188794" duration="4840000" />
       <workItem from="1668057843829" duration="693000" />
       <workItem from="1668058629852" duration="1164000" />
-      <workItem from="1668061238257" duration="2587000" />
+      <workItem from="1668061238257" duration="3022000" />
     </task>
     <servers />
   </component>
