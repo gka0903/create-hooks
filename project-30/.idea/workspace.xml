@@ -5,14 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973e794a-eac7-4aec-bca7-0f494515f42e" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/../30D/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30D/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30D/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30D/30-Days-Of-JavaScript" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-30.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30-Days-Of-React" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../30D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../30D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-Days-Of-React/08_Day_States/08_states_boilerplate/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/30-Days-Of-React/08_Day_States/08_states_boilerplate/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/day-01/level1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled4/.idea/untitled4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled5/.idea/untitled5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/test/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled6/text.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../url_/.idea/url_.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/30-Days-Of-React" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -86,17 +112,12 @@
       <workItem from="1667786188794" duration="4840000" />
       <workItem from="1668057843829" duration="693000" />
       <workItem from="1668058629852" duration="1164000" />
-      <workItem from="1668061238257" duration="308000" />
+      <workItem from="1668061238257" duration="2587000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/index.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -109,7 +130,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="exercise-solutions" />
                       </list>
                     </value>
                   </entry>
