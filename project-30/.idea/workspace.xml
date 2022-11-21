@@ -5,7 +5,566 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973e794a-eac7-4aec-bca7-0f494515f42e" name="변경" comment="변경">
-      <change beforePath="$PROJECT_DIR$/../30D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../30D/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30-Days-Of-React/solutions/day11/level2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../30D/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../30D/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../30D/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../30D/30-Days-Of-JavaScript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/01_Day_JavaScript_Refresher/01_javascript_refresher.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/02_Day_Introduction_to_React/02_introduction_to_react.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/src/images/asabeneh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/images/asabeneh.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/src/images/css_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/images/css_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/src/images/html_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/images/html_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/src/math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/03_Day_Setting_Up/03_setting_up_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/src/images/js_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/images/js_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/04_Day_Components/04_components_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/05_Day_Props/05_props_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/06_Day_Map_List_Keys/06_map_list_keys_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_based_components_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/07_Day_Class_Components/07_class_components.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/08_Day_States/08_states_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/09_Day_Conditional_Rendering/09_conditional_rendering_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/components/color/HexaColor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/components/country/Country.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/components/footer/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/components/header/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/components/main/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/components/shared/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/components/user/UserCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/styles/button-styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/styles/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/styles/country.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/styles/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/styles/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/styles/user-card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/utils/display-date-and-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/src/utils/hexadecimal-color-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/10_React_Project_Folder_Structure/10_react_project_folder_structure_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/11_Day_Events/11_events_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/12_Day_Forms/12_forms_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/14_Day_Component_Life_Cycles/14_component_life_cycles_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_party_packages.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/15_Third_Party_Packages/15_third_pary_packages_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/16_Higher_Order_Component/16_higher_order_component_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/17_React_Router/17_react_router_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_and_axios_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/18_Fetch_And_Axios/18_fetch_axios.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/19_projects/19_projects_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/20_projects/20_projects_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/21_Introducing_Hooks/21_introducing_hooks_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/22_Form_Using_Hooks/22_form_using_hooks_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/24_projects/24_projects_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/src/useFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/25_Custom_Hooks/25_custom_hooks_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/src/useFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/26_Context/26_context_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/src/useFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/27_Ref/27_ref_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/src/useFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/28_project/28_project_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/src/useFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/29_explore/29_explore_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/data/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/data/ten_most_highest_populations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/images/asabeneh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/images/css_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/images/html_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/images/js_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/src/useFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/30_conclusions/30_conclusions_boilerplate/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/project/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/08_day_changing_background_exercise.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/08_day_select_country_exercise.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/123456.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/30_days_of_react_banner_day_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/adding_project_to_vscode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/all_jsx_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/arithmetic copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/arithmetic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/array_index copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/array_index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/assignment_operators.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/average_cat_weight_and_age.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/become_patreon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/className_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/cleaned_launched.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/comparison_operators.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/components.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/components_example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/console_log_multipl_arguments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/create-react-app-first-release_jul-22-2016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/create_react_app_file_cleaned.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/create_react_app_files.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/date_time_object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/day_6_hexadecimal_colors_exercise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/day_6_number_generater_exercise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/day_6_ten_highest_populations_exercise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/download_node.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/dynamic_data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/first_react_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/frontend_technologies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/google_chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/hexadecimal_color_exercise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/inecting_data_to_jsx_create_react_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/install_node.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/internal_style.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/js_code_on_chrome_console.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/js_code_vscode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/js_internal_style_create_react_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/jsx_use_create_react_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/launched_on_new_tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/local_storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/map_list_id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/multiple_script.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/news_letter_design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/npm_package_day_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/npm_registry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/opening_chrome_console_shortcut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/opening_developer_tool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/opening_project_on_vscode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/paypal_lg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/raising_syntax_error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_app_starting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_boilerplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_bolier_plate_cleaned.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_event_on_mouse_enter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_for_everyone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_popularity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/react_repo_1_oct_2020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/regex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/removing_unique_id_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_componnets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_jsx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_more_jsx_content_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_more_jsx_content_create_react_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_multiple_jsx_elements.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/rendering_multiple_jsx_elements_create-react_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/running_script.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/scripts_on_vscode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/string_indexes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/styling_all_jsx_elements.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/styling_jsx_element.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/styling_jsx_inline_create_react_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/user_card_design_jsx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/vsc_live_server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/vscode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/vscode_ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/vue_popularity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/vue_repo_1_oct_2020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/images/web_storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/solutions/day-01/level1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30day-excercise/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
@@ -43,7 +602,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/30-Days-Of-React" value="exercise-solutions" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/30-Days-Of-React" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,10 +641,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/images" />
+      <recent name="$PROJECT_DIR$/project/src" />
+      <recent name="$PROJECT_DIR$/30day-excercise" />
+      <recent name="$PROJECT_DIR$/30-Days-Of-React" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="JavaScript Debug.Debug Application">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -109,7 +677,13 @@
       <workItem from="1667786188794" duration="4840000" />
       <workItem from="1668057843829" duration="693000" />
       <workItem from="1668058629852" duration="1164000" />
-      <workItem from="1668061238257" duration="3022000" />
+      <workItem from="1668061238257" duration="3406000" />
+      <workItem from="1668065294892" duration="11000" />
+      <workItem from="1668065311105" duration="9765000" />
+      <workItem from="1668391552398" duration="10282000" />
+      <workItem from="1668567635360" duration="598000" />
+      <workItem from="1668906086765" duration="1134000" />
+      <workItem from="1668907302162" duration="2976000" />
     </task>
     <servers />
   </component>
@@ -127,7 +701,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="exercise-solutions" />
+                        <option value="exercise" />
                       </list>
                     </value>
                   </entry>
@@ -141,5 +715,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="변경" />
   </component>
 </project>
