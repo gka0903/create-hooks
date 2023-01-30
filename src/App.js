@@ -2,18 +2,15 @@ import React, { useState, useEffect, useRef }  from 'react';
 // import { useInput } from './useInput/useInput';
 // import { useTabs } from './useTabs/useTabs';
 // import { useTitle } from './useTitle/useTitle';
-import { useClick } from './useClick/useClick';
+// import { useClick } from './useClick/useClick';
+import { useConfirm } from './useConfirm/useConfirm';
 
 function App() {
-    // const { item, changeItem } = useTabs(0, contents);
-    // const titleUpdater = useTitle('Loading...');
-    // setTimeout(() => titleUpdater('Home'), 3000)
-    const onClcick = () => {
-        console.log('hello')
-    }
-    const title = useClick(onClcick);
+    const send = () => console.log('i love you');
+    const stop = () => console.log('it is okay you are right she does not like me... thank you')
+    const confirmMessage = useConfirm('Are you sure? Really?', send, stop)
     return (
-        <h1 ref={title}>Een Ji</h1>
+       <button onClick={confirmMessage}>Send to her</button>
     );
 }
 
