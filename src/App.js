@@ -1,27 +1,19 @@
-import React, { useState }  from 'react';
+import React, { useState, useEffect, useRef }  from 'react';
 // import { useInput } from './useInput/useInput';
-import { useTabs } from './useTabs/useTabs';
-
-const contents = [
-    {
-        name : 'HyoungBum',
-        content : 'What is a sexy guy in the world'
-    },
-    {
-        name : 'EunJi',
-        content : 'What is a sexy girl in the world'
-    }
-];
+// import { useTabs } from './useTabs/useTabs';
+// import { useTitle } from './useTitle/useTitle';
+import { useClick } from './useClick/useClick';
 
 function App() {
-    const { item, changeItem } = useTabs(0, contents);
+    // const { item, changeItem } = useTabs(0, contents);
+    // const titleUpdater = useTitle('Loading...');
+    // setTimeout(() => titleUpdater('Home'), 3000)
+    const onClcick = () => {
+        console.log('hello')
+    }
+    const title = useClick(onClcick);
     return (
-        <>
-            <div>
-                {contents.map((person, index) => <button key={index} onClick={() => changeItem(index)}>{person.name}</button>)}
-                <div>{item.content}</div>
-            </div>
-        </>
+        <h1 ref={title}>Een Ji</h1>
     );
 }
 
