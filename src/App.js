@@ -3,14 +3,25 @@ import React, { useState, useEffect, useRef }  from 'react';
 // import { useTabs } from './useTabs/useTabs';
 // import { useTitle } from './useTitle/useTitle';
 // import { useClick } from './useClick/useClick';
-import { useConfirm } from './useConfirm/useConfirm';
+// import { useConfirm } from './useConfirm/useConfirm';
+
+const usePreventLeave = () => {
+    const check = (e) => {
+        e.preventDefault();
+        e.returnValue = '';
+    };
+    const enableProtect = () => window.addEventListener('beforeunload', check);
+    const disableProtect = () => window.removeEventListener('beforeunload', check);
+    return { enableProtect, disableProtect }
+}
 
 function App() {
-    const send = () => console.log('i love you');
-    const stop = () => console.log('it is okay you are right she does not like me... thank you')
-    const confirmMessage = useConfirm('Are you sure? Really?', send, stop)
+    const { enableProtect, disableProtect } = usePreventLeave();
     return (
-       <button onClick={confirmMessage}>Send to her</button>
+       <>
+           <button onClick={enableProtect}>Protect</button>
+           <button onClick={disableProtect}>Unprotect</button>
+       </>
     );
 }
 
